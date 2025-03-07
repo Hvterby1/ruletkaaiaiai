@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ракетка</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Баланс в углу экрана -->
+  <div id="global-balance">Баланс: 0 монет</div>
+
+  <div id="game">
+    <div id="character">🚀</div>
+    <div id="multiplier">1.00x</div>
+    <button id="cashout">Забрать выигрыш</button>
+    <input type="number" id="bet" placeholder="Ваша ставка (мин. 10)" />
+    <button id="start">Старт</button>
+  </div>
+
+  <!-- Кнопка возврата в главное меню -->
+  <button id="back-to-menu">В главное меню</button>
+
+  <!-- Подключаем JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

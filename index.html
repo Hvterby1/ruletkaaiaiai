@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главное меню</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Баланс в углу экрана -->
+  <div id="global-balance">Баланс: 0 монет</div>
+
+  <div id="main-menu">
+    <h1>Выберите режим игры</h1>
+    <div id="mode-buttons">
+      <button id="rocket-mode">Ракетка</button>
+      <button id="slots-mode">Слоты</button>
+      <button id="other-mode">Другой режим (скоро)</button>
+    </div>
+    <button id="deposit-main">Пополнить баланс</button>
+  </div>
+
+  <!-- Модальное окно для пополнения баланса -->
+  <div id="depositModal">
+    <div>
+      <h2>Пополнение баланса</h2>
+      <input type="number" id="depositAmount" placeholder="Введите сумму" />
+      <button id="confirmDeposit">Пополнить</button>
+      <button id="closeModal">Закрыть</button>
+    </div>
+  </div>
+
+  <!-- Подключаем JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

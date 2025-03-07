@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Слоты</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Баланс в углу экрана -->
+  <div id="global-balance">Баланс: 0 монет</div>
+
+  <div id="slots-game">
+    <h1>Слоты</h1>
+    <div id="reels">
+      <div class="reel" id="reel1"></div>
+      <div class="reel" id="reel2"></div>
+      <div class="reel" id="reel3"></div>
+    </div>
+    <div id="controls">
+      <input type="number" id="bet" placeholder="Ваша ставка (мин. 10)" min="10" />
+      <button id="spin">Spin</button>
+    </div>
+    <div id="result"></div>
+    <button id="back-to-menu">В главное меню</button>
+  </div>
+
+  <!-- Подключаем JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
